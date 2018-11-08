@@ -1,13 +1,25 @@
-h2,h4{
+h4{
   color: #383d48;
+  font-family: 'Droid Sans', serif;
+}
+
+li{
+  font-family: 'Montserrat',sans-serif;
+  text-decoration: none;
+}
+.nn{
+  color: #383d48;
+  margin: 2% 0 2% 3%;
+  font-family: 'Montserrat',sans-serif;
 }
 p{
   color: #4d4d4d;
   line-height: 2em;
+  font-family: 'Droid Sans', serif;
 }
 
 .main-wrapper{
-    height: 1000px;
+    height: 1500px;
     width: 100%;
     margin-top: 3%;
     padding-top: 2%;
@@ -104,8 +116,9 @@ a, a:visited, a:hover {
   left: 0;
   width: 100%;
   max-width: 100%;
-  height: 55px;
+  height: 75px;
   z-index: 20;
+  background-color: #D1EEEE;
 }
 .container {
   position: relative;
@@ -119,6 +132,7 @@ a, a:visited, a:hover {
   right: 10px;
   top: 11px;
   font-size: 1.1em;
+  font-family: 'Montserrat',sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: -0.022em;
@@ -352,6 +366,7 @@ nav h3 {
   display: block;
   margin: 0 0 15px 0;
   color: rgb(1, 42, 60, 1);
+  font-family: 'Montserrat',sans-serif;
   font-size: 1.13em;
   font-weight: 600;
   text-transform: uppercase;
@@ -397,6 +412,7 @@ nav .social-link {
   text-align: center;
   background: #4682B4;
   margin: 0 20px 0 0;
+  padding: 3% 0 3% 0;
   cursor: pointer;
 }
 nav .social-link:last-child {
@@ -406,7 +422,18 @@ nav .social-link > i {
   color: #FFFFFF;
   font-size: 1.27em;
   margin: 0 auto;
+}
+
+nav .social-link:hover{
+  background-color: #008080;
+}
+
+nav .smedia{
   margin-top: 23%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
 }
 
 h1 {
