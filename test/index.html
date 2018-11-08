@@ -2,11 +2,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="/favicon1.ico"/>
     <link rel="shortcut icon" type="image/png" href="http://localhost:2998/"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -18,7 +20,7 @@
     <nav>
       <div class="col">
         <h3>Main Navigation</h3>
-          <ul>
+          <ul id= "myUL">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
@@ -27,22 +29,22 @@
       </div>
       <div class="col">
         <h3>Services</h3>
-          <ul>
+          <ul id= "myUL">
             <li><a href="#">Multimedia</a></li>
             <li><a href="#">Development</a></li>
           </ul>
       </div>
       <div class="col">
         <h3>Contact</h3>
-          <ul>
+          <ul id= "myUL">
             <li><a href="#"><i class="fa fa-phone"></i>+44 (0) 123 456 789</a></li>
             <li><a href="#"><i class="fa fa-envelope"></i>info@megamenu.com</a></li>
           </ul>
       </div>
       <div class="col">
-          <div class="social-link"><i class="fa fa-facebook"></i></div>
-          <div class="social-link"><i class="fa fa-twitter"></i></div>
-          <div class="social-link"><i class="fa fa-linkedin"></i></div>
+          <div class="social-link"><a href="https://www.facebook.com/denis.mcdady?fb_dtsg_ag=AdzBDLB8W1HjzvbfAWsybdsP1m9q1Ds5H_G4TUxa7EZH8A%3AAdziNc9FPiircy8UCSEytvMySKHTH6k8GW883fC5aadBtg&_rdc=1&_rdr" class="smedia" target="_blank"><i class="fa fa-facebook"></i></a></div>
+          <div class="social-link"><a href="https://twitter.com/denis_njeru" class="smedia" target="_blank"><i class="fa fa-twitter"></i></a></div>
+          <div class="social-link"><a href="https://www.linkedin.com/in/denis-njeru-515ba813b/" class="smedia" target="_blank"><i class="fa fa-linkedin"></i></a></div>
       </div>
     </nav>
   </div>
@@ -57,14 +59,12 @@
       <h5>Menu</h5>
     </div>
     <div class="search">
-      <input type="text" placeholder="Search">
-      <i class="fa fa-search"></i>
+      <input type="text" placeholder="Search" onkeyup=" return myFunction();" id="myInput">
     </div>
   </div>
 </div>
     <div class="main-wrapper">
-
-      <h2 style="font-family: 'Montserrat',sans-serif; margin-left: 3%;">CRM Demo</h2>
+      <h2 class="nn" style="font-family: 'Montserrat',sans-serif; ">CRM Demo</h2>
       <div class="right">
         <form  class="flex-form">
           <label for="from">
